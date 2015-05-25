@@ -1,0 +1,2296 @@
+{
+	"csm": {
+		"nodes": {
+			"0": {
+				"typename": {
+					"type": "string",
+					"value": "ClassIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						732,
+						225
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"96": {
+								"width": {
+									"type": "double",
+									"value": 200
+								},
+								"height": {
+									"type": "double",
+									"value": 125
+								},
+								"cornerRadius": {
+									"type": "double",
+									"value": 0
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"stroke-width": 2
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										4,
+										3
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"97": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0l197,0"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 2,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										6,
+										36
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"98": {
+								"textContent": {
+									"type": "string",
+									"value": "TransformationUnit"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"font-size": "18px",
+										"font-style": "italic",
+										"font-weight": "bold",
+										"line-height": "100%",
+										"letter-spacing": "0px",
+										"word-spacing": "0px",
+										"fill": "#000000",
+										"fill-opacity": "1",
+										"stroke": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var style = \n{\n   \"font-size\": \"18px\",\n   \"font-style\": \"normal\",\n   \"font-weight\": \"bold\",\n   \"line-height\": \"100%\",\n   \"letter-spacing\": \"0px\",\n   \"word-spacing\": \"0px\",\n   \"fill\": \"#000000\",\n   \"fill-opacity\": \"1\",\n   \"stroke\": \"none\",\n       \"font-style\": (getAttr('abstract') ? 'italic' : 'normal')\n};\n\n({'textContent': getAttr('name'), 'style':style})\n\n\n"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */\n({'name': getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										8,
+										8
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"99": {
+								"textContent": {
+									"type": "string",
+									"value": ""
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"font-size": "14px",
+										"font-style": "normal",
+										"font-weight": "bold",
+										"line-height": "100%",
+										"letter-spacing": "0px",
+										"word-spacing": "0px",
+										"fill": "#000000",
+										"fill-opacity": "1",
+										"stroke": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var filenames = getAttr('attributes').map(\n            function(attr)\n            {\n                var s = '+ '+attr['name'] + ' : ' + attr['type'];\n                if (attr['default'])\n                    s += ' = ' + attr['default'];\n                return s;\n            });\n\n({'textContent': filenames.join('\\n')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": ""
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										10,
+										41
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"100": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										68.5,
+										36.5
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"101": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										12.5,
+										27
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"102": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										53.75,
+										20
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							}
+						},
+						"edges": [
+							{
+								"src": "96",
+								"dest": "100"
+							},
+							{
+								"src": "100",
+								"dest": "98"
+							},
+							{
+								"src": "96",
+								"dest": "101"
+							},
+							{
+								"src": "101",
+								"dest": "99"
+							},
+							{
+								"src": "96",
+								"dest": "102"
+							},
+							{
+								"src": "102",
+								"dest": "97"
+							}
+						]
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class/0.instance"
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon"
+			},
+			"1": {
+				"typename": {
+					"type": "string",
+					"value": "ClassIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						777,
+						414
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"96": {
+								"width": {
+									"type": "double",
+									"value": 200
+								},
+								"height": {
+									"type": "double",
+									"value": 125
+								},
+								"cornerRadius": {
+									"type": "double",
+									"value": 0
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"stroke-width": 2
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										4,
+										3
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"97": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0l197,0"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 2,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										6,
+										36
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"98": {
+								"textContent": {
+									"type": "string",
+									"value": "PseudoUnit"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"font-size": "18px",
+										"font-style": "italic",
+										"font-weight": "bold",
+										"line-height": "100%",
+										"letter-spacing": "0px",
+										"word-spacing": "0px",
+										"fill": "#000000",
+										"fill-opacity": "1",
+										"stroke": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var style = \n{\n   \"font-size\": \"18px\",\n   \"font-style\": \"normal\",\n   \"font-weight\": \"bold\",\n   \"line-height\": \"100%\",\n   \"letter-spacing\": \"0px\",\n   \"word-spacing\": \"0px\",\n   \"fill\": \"#000000\",\n   \"fill-opacity\": \"1\",\n   \"stroke\": \"none\",\n       \"font-style\": (getAttr('abstract') ? 'italic' : 'normal')\n};\n\n({'textContent': getAttr('name'), 'style':style})\n\n\n"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */\n({'name': getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										8,
+										8
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"99": {
+								"textContent": {
+									"type": "string",
+									"value": ""
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"font-size": "14px",
+										"font-style": "normal",
+										"font-weight": "bold",
+										"line-height": "100%",
+										"letter-spacing": "0px",
+										"word-spacing": "0px",
+										"fill": "#000000",
+										"fill-opacity": "1",
+										"stroke": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var filenames = getAttr('attributes').map(\n            function(attr)\n            {\n                var s = '+ '+attr['name'] + ' : ' + attr['type'];\n                if (attr['default'])\n                    s += ' = ' + attr['default'];\n                return s;\n            });\n\n({'textContent': filenames.join('\\n')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": ""
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										10,
+										41
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"100": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										68.5,
+										36.5
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"101": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										12.5,
+										27
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"102": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										53.75,
+										20
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							}
+						},
+						"edges": [
+							{
+								"src": "96",
+								"dest": "100"
+							},
+							{
+								"src": "100",
+								"dest": "98"
+							},
+							{
+								"src": "96",
+								"dest": "101"
+							},
+							{
+								"src": "101",
+								"dest": "99"
+							},
+							{
+								"src": "96",
+								"dest": "102"
+							},
+							{
+								"src": "102",
+								"dest": "97"
+							}
+						]
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class/1.instance"
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon"
+			},
+			"2": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "InheritanceLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						760,
+						431.88725245541843
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"164": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l20,10 l-20,10 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#ffffff",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-10,6.123031769111886e-15%",
+										"0;-79.8863644444445,-100%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-90"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -10
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Inheritance/2.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/1.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/InheritanceLink/2.instance": "M785,488L760,487L760,431.88725245541843",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/InheritanceLink/2.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/0.instance": "M760,431.9595684331725L760,352.00088801097394"
+					}
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/InheritanceLink"
+			},
+			"3": {
+				"typename": {
+					"type": "string",
+					"value": "ClassIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						801,
+						587
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"96": {
+								"width": {
+									"type": "double",
+									"value": 200
+								},
+								"height": {
+									"type": "double",
+									"value": 125
+								},
+								"cornerRadius": {
+									"type": "double",
+									"value": 0
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"stroke-width": 2
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										4,
+										3
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"97": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0l197,0"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 2,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										6,
+										36
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"98": {
+								"textContent": {
+									"type": "string",
+									"value": "Start"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"font-size": "18px",
+										"font-style": "normal",
+										"font-weight": "bold",
+										"line-height": "100%",
+										"letter-spacing": "0px",
+										"word-spacing": "0px",
+										"fill": "#000000",
+										"fill-opacity": "1",
+										"stroke": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var style = \n{\n   \"font-size\": \"18px\",\n   \"font-style\": \"normal\",\n   \"font-weight\": \"bold\",\n   \"line-height\": \"100%\",\n   \"letter-spacing\": \"0px\",\n   \"word-spacing\": \"0px\",\n   \"fill\": \"#000000\",\n   \"fill-opacity\": \"1\",\n   \"stroke\": \"none\",\n       \"font-style\": (getAttr('abstract') ? 'italic' : 'normal')\n};\n\n({'textContent': getAttr('name'), 'style':style})\n\n\n"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */\n({'name': getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										8,
+										8
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"99": {
+								"textContent": {
+									"type": "string",
+									"value": ""
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"font-size": "14px",
+										"font-style": "normal",
+										"font-weight": "bold",
+										"line-height": "100%",
+										"letter-spacing": "0px",
+										"word-spacing": "0px",
+										"fill": "#000000",
+										"fill-opacity": "1",
+										"stroke": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var filenames = getAttr('attributes').map(\n            function(attr)\n            {\n                var s = '+ '+attr['name'] + ' : ' + attr['type'];\n                if (attr['default'])\n                    s += ' = ' + attr['default'];\n                return s;\n            });\n\n({'textContent': filenames.join('\\n')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": ""
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										10,
+										41
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"100": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										68.5,
+										36.5
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"101": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										12.5,
+										27
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"102": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										53.75,
+										20
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							}
+						},
+						"edges": [
+							{
+								"src": "96",
+								"dest": "100"
+							},
+							{
+								"src": "100",
+								"dest": "98"
+							},
+							{
+								"src": "96",
+								"dest": "101"
+							},
+							{
+								"src": "101",
+								"dest": "99"
+							},
+							{
+								"src": "96",
+								"dest": "102"
+							},
+							{
+								"src": "102",
+								"dest": "97"
+							}
+						]
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class/3.instance"
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon"
+			},
+			"4": {
+				"typename": {
+					"type": "string",
+					"value": "ClassIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						1030,
+						586
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"96": {
+								"width": {
+									"type": "double",
+									"value": 200
+								},
+								"height": {
+									"type": "double",
+									"value": 125
+								},
+								"cornerRadius": {
+									"type": "double",
+									"value": 0
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"stroke-width": 2
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										4,
+										3
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"97": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0l197,0"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 2,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										6,
+										36
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"98": {
+								"textContent": {
+									"type": "string",
+									"value": "End"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"font-size": "18px",
+										"font-style": "normal",
+										"font-weight": "bold",
+										"line-height": "100%",
+										"letter-spacing": "0px",
+										"word-spacing": "0px",
+										"fill": "#000000",
+										"fill-opacity": "1",
+										"stroke": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var style = \n{\n   \"font-size\": \"18px\",\n   \"font-style\": \"normal\",\n   \"font-weight\": \"bold\",\n   \"line-height\": \"100%\",\n   \"letter-spacing\": \"0px\",\n   \"word-spacing\": \"0px\",\n   \"fill\": \"#000000\",\n   \"fill-opacity\": \"1\",\n   \"stroke\": \"none\",\n       \"font-style\": (getAttr('abstract') ? 'italic' : 'normal')\n};\n\n({'textContent': getAttr('name'), 'style':style})\n\n\n"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */\n({'name': getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										8,
+										8
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"99": {
+								"textContent": {
+									"type": "string",
+									"value": ""
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"font-size": "14px",
+										"font-style": "normal",
+										"font-weight": "bold",
+										"line-height": "100%",
+										"letter-spacing": "0px",
+										"word-spacing": "0px",
+										"fill": "#000000",
+										"fill-opacity": "1",
+										"stroke": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var filenames = getAttr('attributes').map(\n            function(attr)\n            {\n                var s = '+ '+attr['name'] + ' : ' + attr['type'];\n                if (attr['default'])\n                    s += ' = ' + attr['default'];\n                return s;\n            });\n\n({'textContent': filenames.join('\\n')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": ""
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										10,
+										41
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"100": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										68.5,
+										36.5
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"101": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										12.5,
+										27
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"102": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										53.75,
+										20
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							}
+						},
+						"edges": [
+							{
+								"src": "96",
+								"dest": "100"
+							},
+							{
+								"src": "100",
+								"dest": "98"
+							},
+							{
+								"src": "96",
+								"dest": "101"
+							},
+							{
+								"src": "101",
+								"dest": "99"
+							},
+							{
+								"src": "96",
+								"dest": "102"
+							},
+							{
+								"src": "102",
+								"dest": "97"
+							}
+						]
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class/4.instance"
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon"
+			},
+			"5": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "InheritanceLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						827.5,
+						570.5
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"164": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l20,10 l-20,10 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#ffffff",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-9.498470642911002,1.7541160386139378%",
+										"0;-28.674885903645986,-99.98461420100134%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-88.99491399474589"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -10
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Inheritance/5.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/3.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/InheritanceLink/5.instance": "M827,599L827.5,570.5",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/InheritanceLink/5.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/1.instance": "M827.5013111713328,570.4252632340343L827.9999907771892,542.0005257002155"
+					}
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/InheritanceLink"
+			},
+			"6": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "InheritanceLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						969.6499999247243,
+						568.0000000000001
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"164": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l20,10 l-20,10 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#ffffff",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-92.64261167103746,-3.8433122101204344%",
+										"0;-25.615668778988038,-99.92611746313142%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-92.2025981617658"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -10
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Inheritance/6.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/4.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/InheritanceLink/6.instance": "M1062,592L1063,569L969.6499999247243,568.0000000000001",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/InheritanceLink/6.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/1.instance": "M969.6499999247243,568.0000000000001L888,568L887,542"
+					}
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/InheritanceLink"
+			},
+			"7": {
+				"typename": {
+					"type": "string",
+					"value": "ClassIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						175,
+						222
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"96": {
+								"width": {
+									"type": "double",
+									"value": 200
+								},
+								"height": {
+									"type": "double",
+									"value": 125
+								},
+								"cornerRadius": {
+									"type": "double",
+									"value": 0
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"stroke-width": 2
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										4,
+										3
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"97": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0l197,0"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 2,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										6,
+										36
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"98": {
+								"textContent": {
+									"type": "string",
+									"value": "TransformationUnitRelation"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"font-size": "18px",
+										"font-style": "italic",
+										"font-weight": "bold",
+										"line-height": "100%",
+										"letter-spacing": "0px",
+										"word-spacing": "0px",
+										"fill": "#000000",
+										"fill-opacity": "1",
+										"stroke": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var style = \n{\n   \"font-size\": \"18px\",\n   \"font-style\": \"normal\",\n   \"font-weight\": \"bold\",\n   \"line-height\": \"100%\",\n   \"letter-spacing\": \"0px\",\n   \"word-spacing\": \"0px\",\n   \"fill\": \"#000000\",\n   \"fill-opacity\": \"1\",\n   \"stroke\": \"none\",\n       \"font-style\": (getAttr('abstract') ? 'italic' : 'normal')\n};\n\n({'textContent': getAttr('name'), 'style':style})\n\n\n"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */\n({'name': getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										8,
+										8
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"99": {
+								"textContent": {
+									"type": "string",
+									"value": ""
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"font-size": "14px",
+										"font-style": "normal",
+										"font-weight": "bold",
+										"line-height": "100%",
+										"letter-spacing": "0px",
+										"word-spacing": "0px",
+										"fill": "#000000",
+										"fill-opacity": "1",
+										"stroke": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var filenames = getAttr('attributes').map(\n            function(attr)\n            {\n                var s = '+ '+attr['name'] + ' : ' + attr['type'];\n                if (attr['default'])\n                    s += ' = ' + attr['default'];\n                return s;\n            });\n\n({'textContent': filenames.join('\\n')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": ""
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										10,
+										41
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"100": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										68.5,
+										36.5
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"101": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										12.5,
+										27
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"102": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										53.75,
+										20
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							}
+						},
+						"edges": [
+							{
+								"src": "96",
+								"dest": "100"
+							},
+							{
+								"src": "100",
+								"dest": "98"
+							},
+							{
+								"src": "96",
+								"dest": "101"
+							},
+							{
+								"src": "101",
+								"dest": "99"
+							},
+							{
+								"src": "96",
+								"dest": "102"
+							},
+							{
+								"src": "102",
+								"dest": "97"
+							}
+						]
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class/7.instance"
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon"
+			}
+		},
+		"edges": [],
+		"metamodels": [
+			"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons"
+		]
+	},
+	"asm": {
+		"nodes": {
+			"0": {
+				"name": {
+					"type": "string",
+					"value": "TransformationUnit"
+				},
+				"attributes": {
+					"type": "list<$ATTRIBUTE>",
+					"value": []
+				},
+				"constraints": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"actions": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"cardinalities": {
+					"type": "list<$CARDINALITY>",
+					"value": []
+				},
+				"abstract": {
+					"type": "boolean",
+					"value": true
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class"
+			},
+			"1": {
+				"name": {
+					"type": "string",
+					"value": "PseudoUnit"
+				},
+				"attributes": {
+					"type": "list<$ATTRIBUTE>",
+					"value": []
+				},
+				"constraints": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"actions": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"cardinalities": {
+					"type": "list<$CARDINALITY>",
+					"value": []
+				},
+				"abstract": {
+					"type": "boolean",
+					"value": true
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class"
+			},
+			"2": {
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Inheritance"
+			},
+			"3": {
+				"name": {
+					"type": "string",
+					"value": "Start"
+				},
+				"attributes": {
+					"type": "list<$ATTRIBUTE>",
+					"value": []
+				},
+				"constraints": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"actions": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"cardinalities": {
+					"type": "list<$CARDINALITY>",
+					"value": []
+				},
+				"abstract": {
+					"type": "boolean",
+					"value": false
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class"
+			},
+			"4": {
+				"name": {
+					"type": "string",
+					"value": "End"
+				},
+				"attributes": {
+					"type": "list<$ATTRIBUTE>",
+					"value": []
+				},
+				"constraints": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"actions": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"cardinalities": {
+					"type": "list<$CARDINALITY>",
+					"value": []
+				},
+				"abstract": {
+					"type": "boolean",
+					"value": false
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class"
+			},
+			"5": {
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Inheritance"
+			},
+			"6": {
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Inheritance"
+			},
+			"7": {
+				"name": {
+					"type": "string",
+					"value": "TransformationUnitRelation"
+				},
+				"attributes": {
+					"type": "list<$ATTRIBUTE>",
+					"value": []
+				},
+				"constraints": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"actions": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"cardinalities": {
+					"type": "list<$CARDINALITY>",
+					"value": []
+				},
+				"abstract": {
+					"type": "boolean",
+					"value": true
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class"
+			}
+		},
+		"edges": [
+			{
+				"src": "1",
+				"dest": "2"
+			},
+			{
+				"src": "2",
+				"dest": "0"
+			},
+			{
+				"src": "3",
+				"dest": "5"
+			},
+			{
+				"src": "5",
+				"dest": "1"
+			},
+			{
+				"src": "4",
+				"dest": "6"
+			},
+			{
+				"src": "6",
+				"dest": "1"
+			}
+		],
+		"metamodels": [
+			"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram"
+		]
+	}
+}
