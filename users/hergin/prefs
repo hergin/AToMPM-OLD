@@ -18,7 +18,9 @@
 	"autoloaded-toolbars": {
 		"type": "list<string>",
 		"value": [
-            "/Toolbars/TransformationController/TransformationController.buttons.model"
+            "/Toolbars/TransformationController/TransformationController.buttons.model",
+            "/Toolbars/CompileMenu/CompileMenu.buttons.model",
+            "/Formalisms/DelTa/DelTa.defaultIcons.metamodel"
         ]
 	},
 	"autoloaded-model": {

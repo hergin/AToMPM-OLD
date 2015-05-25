@@ -1,0 +1,695 @@
+{
+	"types": {
+		"TransformationUnit": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "N_"
+			},
+			{
+				"name": "isExhaustive",
+				"type": "int",
+				"default": "0"
+			}
+		],
+		"PseudoUnit": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "N_"
+			},
+			{
+				"name": "isExhaustive",
+				"type": "int",
+				"default": "0"
+			}
+		],
+		"Start": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "N_"
+			},
+			{
+				"name": "isExhaustive",
+				"type": "int",
+				"default": "0"
+			}
+		],
+		"End": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "N_"
+			},
+			{
+				"name": "isExhaustive",
+				"type": "int",
+				"default": "0"
+			}
+		],
+		"TransformationUnitRelation": [],
+		"Decision": [],
+		"Random": [],
+		"success": [],
+		"fail": [],
+		"randomizedUnits": [],
+		"Rule": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "N_"
+			},
+			{
+				"name": "isExhaustive",
+				"type": "int",
+				"default": "0"
+			}
+		],
+		"condition": [],
+		"sequence": []
+	},
+	"constraints": [
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "false",
+			"targetType": "TransformationUnit"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "false",
+			"targetType": "PseudoUnit"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "false",
+			"targetType": "TransformationUnitRelation"
+		}
+	],
+	"actions": [],
+	"cardinalities": {
+		"TransformationUnit": [
+			{
+				"dir": "in",
+				"type": "success",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "fail",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "randomizedUnits",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "condition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "sequence",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "sequence",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"PseudoUnit": [
+			{
+				"dir": "in",
+				"type": "success",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "fail",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "randomizedUnits",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "condition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "sequence",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "sequence",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"Start": [
+			{
+				"dir": "in",
+				"type": "success",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "fail",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "randomizedUnits",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "condition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "sequence",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "sequence",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"End": [
+			{
+				"dir": "in",
+				"type": "success",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "fail",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "randomizedUnits",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "condition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "sequence",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "sequence",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"TransformationUnitRelation": [],
+		"Decision": [
+			{
+				"dir": "out",
+				"type": "success",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "fail",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "condition",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"Random": [
+			{
+				"dir": "out",
+				"type": "randomizedUnits",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"success": [
+			{
+				"dir": "in",
+				"type": "Decision",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "TransformationUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "PseudoUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Start",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "End",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Rule",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"fail": [
+			{
+				"dir": "in",
+				"type": "Decision",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "TransformationUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "PseudoUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Start",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "End",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Rule",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"randomizedUnits": [
+			{
+				"dir": "in",
+				"type": "Random",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "TransformationUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "PseudoUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Start",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "End",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Rule",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"Rule": [
+			{
+				"dir": "in",
+				"type": "success",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "fail",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "randomizedUnits",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "condition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "sequence",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "sequence",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"condition": [
+			{
+				"dir": "in",
+				"type": "Decision",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "TransformationUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "PseudoUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Start",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "End",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Rule",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"sequence": [
+			{
+				"dir": "in",
+				"type": "TransformationUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "TransformationUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "PseudoUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "PseudoUnit",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "Start",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Start",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "End",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "End",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "Rule",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Rule",
+				"min": "0",
+				"max": "1"
+			}
+		]
+	},
+	"legalConnections": {
+		"TransformationUnit": {
+			"TransformationUnit": [
+				"sequence"
+			],
+			"PseudoUnit": [
+				"sequence"
+			],
+			"Start": [
+				"sequence"
+			],
+			"End": [
+				"sequence"
+			],
+			"Rule": [
+				"sequence"
+			]
+		},
+		"PseudoUnit": {
+			"TransformationUnit": [
+				"sequence"
+			],
+			"PseudoUnit": [
+				"sequence"
+			],
+			"Start": [
+				"sequence"
+			],
+			"End": [
+				"sequence"
+			],
+			"Rule": [
+				"sequence"
+			]
+		},
+		"Start": {
+			"TransformationUnit": [
+				"sequence"
+			],
+			"PseudoUnit": [
+				"sequence"
+			],
+			"Start": [
+				"sequence"
+			],
+			"End": [
+				"sequence"
+			],
+			"Rule": [
+				"sequence"
+			]
+		},
+		"End": {
+			"TransformationUnit": [
+				"sequence"
+			],
+			"PseudoUnit": [
+				"sequence"
+			],
+			"Start": [
+				"sequence"
+			],
+			"End": [
+				"sequence"
+			],
+			"Rule": [
+				"sequence"
+			]
+		},
+		"Decision": {
+			"TransformationUnit": [
+				"success",
+				"fail",
+				"condition"
+			],
+			"PseudoUnit": [
+				"success",
+				"fail",
+				"condition"
+			],
+			"Start": [
+				"success",
+				"fail",
+				"condition"
+			],
+			"End": [
+				"success",
+				"fail",
+				"condition"
+			],
+			"Rule": [
+				"success",
+				"fail",
+				"condition"
+			]
+		},
+		"Random": {
+			"TransformationUnit": [
+				"randomizedUnits"
+			],
+			"PseudoUnit": [
+				"randomizedUnits"
+			],
+			"Start": [
+				"randomizedUnits"
+			],
+			"End": [
+				"randomizedUnits"
+			],
+			"Rule": [
+				"randomizedUnits"
+			]
+		},
+		"Rule": {
+			"TransformationUnit": [
+				"sequence"
+			],
+			"PseudoUnit": [
+				"sequence"
+			],
+			"Start": [
+				"sequence"
+			],
+			"End": [
+				"sequence"
+			],
+			"Rule": [
+				"sequence"
+			]
+		}
+	},
+	"connectorTypes": {
+		"success": "visual",
+		"fail": "visual",
+		"randomizedUnits": "containment",
+		"condition": "visual",
+		"sequence": "visual"
+	},
+	"types2parentTypes": {
+		"TransformationUnit": [],
+		"PseudoUnit": [
+			"TransformationUnit"
+		],
+		"Start": [
+			"PseudoUnit",
+			"TransformationUnit"
+		],
+		"End": [
+			"PseudoUnit",
+			"TransformationUnit"
+		],
+		"TransformationUnitRelation": [],
+		"Decision": [
+			"TransformationUnitRelation"
+		],
+		"Random": [
+			"TransformationUnitRelation"
+		],
+		"success": [],
+		"fail": [],
+		"randomizedUnits": [],
+		"Rule": [
+			"TransformationUnit"
+		],
+		"condition": [],
+		"sequence": []
+	}
+}
