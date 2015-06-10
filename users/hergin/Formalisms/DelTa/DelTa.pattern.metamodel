@@ -1,0 +1,1867 @@
+{
+	"types": {
+		"__pTransformationUnit": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "isExhaustive",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pPseudoUnit": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "isExhaustive",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pStart": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "isExhaustive",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pEnd": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "isExhaustive",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pTransformationUnitRelation": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__pDecision": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__pRandom": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__psuccess": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__pfail": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__prandomizedUnits": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__pRule": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "isExhaustive",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pcondition": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__psequence": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__pModelTransformationDesignPattern": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pturs": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__ptus": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__pVariableType": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "varType",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "mm",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "negativeConstraintNumber",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__poperatesOn": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__pElement": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "varType",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "mm",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "negativeConstraintNumber",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pEntity": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "varType",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "mm",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "negativeConstraintNumber",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pTag": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "negation",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__ptags": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			}
+		],
+		"__pConditionTag": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "negation",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pActionTag": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "negation",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__prelation": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "varType",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "mm",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "negativeConstraintNumber",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__ptrace": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "varType",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "mm",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "negativeConstraintNumber",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pPositionable": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		]
+	},
+	"constraints": [
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "/* comment next line to enable this constraint */\nthrow \"IgnoredConstraint\"\nfalse",
+			"targetType": "TransformationUnit"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "/* comment next line to enable this constraint */\nthrow \"IgnoredConstraint\"\nfalse",
+			"targetType": "PseudoUnit"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "/* comment next line to enable this constraint */\nthrow \"IgnoredConstraint\"\nfalse",
+			"targetType": "TransformationUnitRelation"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "/* comment next line to enable this constraint */\nthrow \"IgnoredConstraint\"\nfalse",
+			"targetType": "VariableType"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "/* comment next line to enable this constraint */\nthrow \"IgnoredConstraint\"\nfalse",
+			"targetType": "Element"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "/* comment next line to enable this constraint */\nthrow \"IgnoredConstraint\"\nfalse",
+			"targetType": "Tag"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "/* comment next line to enable this constraint */\nthrow \"IgnoredConstraint\"\nfalse",
+			"targetType": "Positionable"
+		}
+	],
+	"actions": [
+		{
+			"name": "distinctPLabels",
+			"event": "post-create",
+			"code": "if( getAttr(\"__pLabel\") == \"\" )\n{\n\tvar pLabels = getAllNodes().\n\t\t\t\t\t\t\tfilter( function(n) {return hasAttr(\"__pLabel\",n);} ).\n\t\t\t\t\t\t\t\tmap( function(n) {return getAttr(\"__pLabel\",n);} ),\n\t\t i\t\t\t= \"0\";\n\n\twhile( _utils.contains(pLabels,i) )\n\t\ti = String(parseInt(i)+1);\n\tsetAttr(\"__pLabel\",i);\n}",
+			"targetType": "*"
+		}
+	],
+	"cardinalities": {
+		"__pTransformationUnit": [
+			{
+				"dir": "in",
+				"type": "__psuccess",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pfail",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__prandomizedUnits",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pcondition",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__psequence",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__psequence",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__ptus",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pPseudoUnit": [
+			{
+				"dir": "in",
+				"type": "__psuccess",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pfail",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__prandomizedUnits",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pcondition",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__psequence",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__psequence",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__ptus",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pStart": [
+			{
+				"dir": "in",
+				"type": "__psuccess",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pfail",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__prandomizedUnits",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pcondition",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__psequence",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__psequence",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__ptus",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pEnd": [
+			{
+				"dir": "in",
+				"type": "__psuccess",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pfail",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__prandomizedUnits",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pcondition",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__psequence",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__psequence",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__ptus",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pTransformationUnitRelation": [
+			{
+				"dir": "in",
+				"type": "__pturs",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pDecision": [
+			{
+				"dir": "out",
+				"type": "__psuccess",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__pfail",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__pcondition",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pturs",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pRandom": [
+			{
+				"dir": "out",
+				"type": "__prandomizedUnits",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pturs",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__psuccess": [
+			{
+				"dir": "in",
+				"type": "__pDecision",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pTransformationUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pPseudoUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pStart",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pEnd",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pRule",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pfail": [
+			{
+				"dir": "in",
+				"type": "__pDecision",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pTransformationUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pPseudoUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pStart",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pEnd",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pRule",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__prandomizedUnits": [
+			{
+				"dir": "in",
+				"type": "__pRandom",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pTransformationUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pPseudoUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pStart",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pEnd",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pRule",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pRule": [
+			{
+				"dir": "out",
+				"type": "__poperatesOn",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__psuccess",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pfail",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__prandomizedUnits",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pcondition",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__psequence",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__psequence",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__ptus",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pcondition": [
+			{
+				"dir": "in",
+				"type": "__pDecision",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pTransformationUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pPseudoUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pStart",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pEnd",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pRule",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__psequence": [
+			{
+				"dir": "in",
+				"type": "__pTransformationUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pTransformationUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "__pPseudoUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pPseudoUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "__pStart",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pStart",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "__pEnd",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pEnd",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "__pRule",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pRule",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pModelTransformationDesignPattern": [
+			{
+				"dir": "out",
+				"type": "__pturs",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__ptus",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pturs": [
+			{
+				"dir": "in",
+				"type": "__pModelTransformationDesignPattern",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pTransformationUnitRelation",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pDecision",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pRandom",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__ptus": [
+			{
+				"dir": "in",
+				"type": "__pModelTransformationDesignPattern",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pTransformationUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pPseudoUnit",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pStart",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pEnd",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pRule",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pVariableType": [
+			{
+				"dir": "in",
+				"type": "__poperatesOn",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__poperatesOn": [
+			{
+				"dir": "in",
+				"type": "__pRule",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pVariableType",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pElement",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pEntity",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pElement": [
+			{
+				"dir": "out",
+				"type": "__ptags",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__poperatesOn",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pEntity": [
+			{
+				"dir": "out",
+				"type": "__prelation",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__prelation",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__ptrace",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__ptrace",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__ptags",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__poperatesOn",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pTag": [
+			{
+				"dir": "in",
+				"type": "__ptags",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__ptags": [
+			{
+				"dir": "in",
+				"type": "__pElement",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pTag",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "__pEntity",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pConditionTag",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pActionTag",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pConditionTag": [
+			{
+				"dir": "in",
+				"type": "__ptags",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pActionTag": [
+			{
+				"dir": "in",
+				"type": "__ptags",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__prelation": [
+			{
+				"dir": "in",
+				"type": "__pEntity",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pEntity",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__ptrace": [
+			{
+				"dir": "in",
+				"type": "__pEntity",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pEntity",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pPositionable": []
+	},
+	"legalConnections": {
+		"__pTransformationUnit": {
+			"__pTransformationUnit": [
+				"__psequence"
+			],
+			"__pPseudoUnit": [
+				"__psequence"
+			],
+			"__pStart": [
+				"__psequence"
+			],
+			"__pEnd": [
+				"__psequence"
+			],
+			"__pRule": [
+				"__psequence"
+			]
+		},
+		"__pPseudoUnit": {
+			"__pTransformationUnit": [
+				"__psequence"
+			],
+			"__pPseudoUnit": [
+				"__psequence"
+			],
+			"__pStart": [
+				"__psequence"
+			],
+			"__pEnd": [
+				"__psequence"
+			],
+			"__pRule": [
+				"__psequence"
+			]
+		},
+		"__pStart": {
+			"__pTransformationUnit": [
+				"__psequence"
+			],
+			"__pPseudoUnit": [
+				"__psequence"
+			],
+			"__pStart": [
+				"__psequence"
+			],
+			"__pEnd": [
+				"__psequence"
+			],
+			"__pRule": [
+				"__psequence"
+			]
+		},
+		"__pEnd": {
+			"__pTransformationUnit": [
+				"__psequence"
+			],
+			"__pPseudoUnit": [
+				"__psequence"
+			],
+			"__pStart": [
+				"__psequence"
+			],
+			"__pEnd": [
+				"__psequence"
+			],
+			"__pRule": [
+				"__psequence"
+			]
+		},
+		"__pDecision": {
+			"__pTransformationUnit": [
+				"__psuccess",
+				"__pfail",
+				"__pcondition"
+			],
+			"__pPseudoUnit": [
+				"__psuccess",
+				"__pfail",
+				"__pcondition"
+			],
+			"__pStart": [
+				"__psuccess",
+				"__pfail",
+				"__pcondition"
+			],
+			"__pEnd": [
+				"__psuccess",
+				"__pfail",
+				"__pcondition"
+			],
+			"__pRule": [
+				"__psuccess",
+				"__pfail",
+				"__pcondition"
+			]
+		},
+		"__pRandom": {
+			"__pTransformationUnit": [
+				"__prandomizedUnits"
+			],
+			"__pPseudoUnit": [
+				"__prandomizedUnits"
+			],
+			"__pStart": [
+				"__prandomizedUnits"
+			],
+			"__pEnd": [
+				"__prandomizedUnits"
+			],
+			"__pRule": [
+				"__prandomizedUnits"
+			]
+		},
+		"__pRule": {
+			"__pVariableType": [
+				"__poperatesOn"
+			],
+			"__pElement": [
+				"__poperatesOn"
+			],
+			"__pEntity": [
+				"__poperatesOn"
+			],
+			"__pTransformationUnit": [
+				"__psequence"
+			],
+			"__pPseudoUnit": [
+				"__psequence"
+			],
+			"__pStart": [
+				"__psequence"
+			],
+			"__pEnd": [
+				"__psequence"
+			],
+			"__pRule": [
+				"__psequence"
+			]
+		},
+		"__pModelTransformationDesignPattern": {
+			"__pTransformationUnitRelation": [
+				"__pturs"
+			],
+			"__pDecision": [
+				"__pturs"
+			],
+			"__pRandom": [
+				"__pturs"
+			],
+			"__pTransformationUnit": [
+				"__ptus"
+			],
+			"__pPseudoUnit": [
+				"__ptus"
+			],
+			"__pStart": [
+				"__ptus"
+			],
+			"__pEnd": [
+				"__ptus"
+			],
+			"__pRule": [
+				"__ptus"
+			]
+		},
+		"__pElement": {
+			"__pTag": [
+				"__ptags"
+			],
+			"__pConditionTag": [
+				"__ptags"
+			],
+			"__pActionTag": [
+				"__ptags"
+			]
+		},
+		"__pEntity": {
+			"__pEntity": [
+				"__prelation",
+				"__ptrace"
+			],
+			"__pTag": [
+				"__ptags"
+			],
+			"__pConditionTag": [
+				"__ptags"
+			],
+			"__pActionTag": [
+				"__ptags"
+			]
+		}
+	},
+	"connectorTypes": {
+		"__psuccess": "visual",
+		"__pfail": "visual",
+		"__prandomizedUnits": "containment",
+		"__pcondition": "visual",
+		"__psequence": "visual",
+		"__pturs": "visual",
+		"__ptus": "visual",
+		"__poperatesOn": "containment",
+		"__ptags": "visual",
+		"__prelation": "visual",
+		"__ptrace": "visual"
+	},
+	"types2parentTypes": {
+		"__pTransformationUnit": [
+			"__pPositionable"
+		],
+		"__pPseudoUnit": [
+			"__pTransformationUnit",
+			"__pPositionable"
+		],
+		"__pStart": [
+			"__pPseudoUnit",
+			"__pTransformationUnit",
+			"__pPositionable"
+		],
+		"__pEnd": [
+			"__pPseudoUnit",
+			"__pTransformationUnit",
+			"__pPositionable"
+		],
+		"__pTransformationUnitRelation": [],
+		"__pDecision": [
+			"__pTransformationUnitRelation"
+		],
+		"__pRandom": [
+			"__pTransformationUnitRelation"
+		],
+		"__psuccess": [],
+		"__pfail": [],
+		"__prandomizedUnits": [],
+		"__pRule": [
+			"__pTransformationUnit",
+			"__pPositionable"
+		],
+		"__pcondition": [],
+		"__psequence": [],
+		"__pModelTransformationDesignPattern": [],
+		"__pturs": [],
+		"__ptus": [],
+		"__pVariableType": [],
+		"__poperatesOn": [],
+		"__pElement": [
+			"__pVariableType"
+		],
+		"__pEntity": [
+			"__pElement",
+			"__pVariableType"
+		],
+		"__pTag": [],
+		"__ptags": [],
+		"__pConditionTag": [
+			"__pTag"
+		],
+		"__pActionTag": [
+			"__pTag"
+		],
+		"__prelation": [],
+		"__ptrace": [],
+		"__pPositionable": []
+	}
+}
