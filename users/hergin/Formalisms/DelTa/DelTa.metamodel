@@ -256,6 +256,13 @@
 				"type": "list<int>",
 				"default": "[0,0]"
 			}
+		],
+		"MetaData": [
+			{
+				"name": "location",
+				"type": "string",
+				"default": "/Formalisms/..."
+			}
 		]
 	},
 	"constraints": [
@@ -1040,7 +1047,8 @@
 				"max": "1"
 			}
 		],
-		"Positionable": []
+		"Positionable": [],
+		"MetaData": []
 	},
 	"legalConnections": {
 		"TransformationUnit": {
@@ -1303,6 +1311,7 @@
 		],
 		"relation": [],
 		"trace": [],
-		"Positionable": []
+		"Positionable": [],
+		"MetaData": []
 	}
 }

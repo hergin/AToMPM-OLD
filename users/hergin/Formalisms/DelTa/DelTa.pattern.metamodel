@@ -808,6 +808,33 @@
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
+		],
+		"__pMetaData": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"name": "location",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
 		]
 	},
 	"constraints": [
@@ -1599,7 +1626,8 @@
 				"max": "1"
 			}
 		],
-		"__pPositionable": []
+		"__pPositionable": [],
+		"__pMetaData": []
 	},
 	"legalConnections": {
 		"__pTransformationUnit": {
@@ -1862,6 +1890,7 @@
 		],
 		"__prelation": [],
 		"__ptrace": [],
-		"__pPositionable": []
+		"__pPositionable": [],
+		"__pMetaData": []
 	}
 }
