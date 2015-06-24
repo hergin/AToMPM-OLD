@@ -1813,7 +1813,69 @@ with AToMPM.  If not, see <http://www.gnu.org/licenses/>.
 				);
 			}
 		},
+	
+	
+	'POST */saveSched' :
+		function(resp,uri)
+		{
+			var self		= this,
+			 actions = [__wHttpReq('GET','/current.model?wid='+this.__aswid)];
+	
+			_do.chain(actions)(
+				function(asdata)
+				{
+					if( (res = _mmmk.read())['$err'] )
+						__postInternalErrorMsg(resp,res['$err']);
+					else
+					{
+						var path = './users/hergin/Formalisms/DelTa/samples/newMotif.model';						
+						var dir	 = './users/hergin/Formalisms/DelTa/samples';
 
+						var csm = _utils.jsonp(res),
+							asm = _utils.jsonp(asdata['data']);
+						
+						
+							for(var key in csm.nodes) {
+								if('$type' in csm.nodes[key] && csm.nodes[key]['$type'].indexOf('MoTif')==-1) {
+									delete csm.nodes[key];
+								}
+							}
+							for(var key in asm.nodes) {
+								if('$type' in asm.nodes[key] && asm.nodes[key]['$type'].indexOf('MoTif')==-1) {
+									delete asm.nodes[key];
+								}
+							}
+							
+						
+						var mData = {
+								'csm':csm,
+								'asm':asm},
+							 writeActions = 
+								[_fspp.mkdirs(dir),
+							 	 function()
+								 {
+									 return _fs.writeFile(
+													path,
+													_utils.jsons(mData,null,'\t'));
+								 }];
+						_do.chain(writeActions)(
+							function()
+							{
+								__postMessage(
+									{'statusCode':200,
+										 'respIndex':resp});
+							},
+							function(writeErr)	
+							{
+								__postInternalErrorMsg(resp,writeErr);
+							}
+						);
+					}
+					
+				},
+				function(err) 	{__postInternalErrorMsg(resp,err);}
+			);
+		},
 
 	/* write a bundle containing this CS model and its associated AS model to 
 		disk

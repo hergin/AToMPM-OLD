@@ -18,6 +18,7 @@
 	"autoloaded-toolbars": {
 		"type": "list<string>",
 		"value": [
+			"/Formalisms/DelTa/DPGEN.buttons.model",
             "/Toolbars/TransformationController/TransformationController.buttons.model",
             "/Toolbars/CompileMenu/CompileMenu.buttons.model",
             "/Formalisms/DelTa/DelTa.defaultIcons.metamodel"

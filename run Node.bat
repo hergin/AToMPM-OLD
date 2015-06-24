@@ -1,1 +1,1 @@
-start node httpwsd.js
+start node --debug httpwsd.js

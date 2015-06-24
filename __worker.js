@@ -618,6 +618,11 @@ function __handleClientRequest(uri,method,reqData,respIndex)
 			return __postUnsupportedErrorMsg(respIndex);
 		_wlib[func](respIndex,uri,reqData);
 	}
+	
+	else if( method=='POST' && uri.indexOf('saveSched')!=-1 )
+	{
+		_wlib['POST */saveSched'](respIndex,uri,reqData);
+	}
 
 	else if( (method == 'GET' 	&& uri.match(/^\/internal.state$/)) 		||
 				(method == 'PUT' 	&& uri.match(/^\/aswSubscription$/)) 		||
