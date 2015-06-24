@@ -1830,10 +1830,17 @@ with AToMPM.  If not, see <http://www.gnu.org/licenses/>.
 					{
 						var path = './users/hergin/Formalisms/DelTa/samples/newMotif.model';						
 						var dir	 = './users/hergin/Formalisms/DelTa/samples';
+						var username = uri.substring(1,uri.indexOf("/saveSched"));
 
 						var csm = _utils.jsonp(res),
 							asm = _utils.jsonp(asdata['data']);
 						
+							for(var key in asm.nodes) {
+								if('$type' in asm.nodes[key] && asm.nodes[key]['$type'].indexOf('MetaData')!=-1) {
+									dir = './users/'+username+asm.nodes[key]['location']['value'].toString();
+									path = './users/'+username+asm.nodes[key]['location']['value'].toString()+"/T_TRAFO.model";
+								}
+							}
 						
 							for(var key in csm.nodes) {
 								if('$type' in csm.nodes[key] && csm.nodes[key]['$type'].indexOf('MoTif')==-1) {
