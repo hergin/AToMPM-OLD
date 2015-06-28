@@ -30,12 +30,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "({position:getAttr(\"position\")})"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "({position:getAttr(\"position\")})"
 			},
 			{
 				"name": "$contents",
@@ -128,12 +128,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "({position:getAttr(\"position\")})"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "({position:getAttr(\"position\")})"
 			},
 			{
 				"name": "$contents",
@@ -206,7 +206,7 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								"value": "if(getAttr('result')=='success')\n    ({\"r\":15,\"style\":{\"stroke\": \"#ffffff\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('result')=='fail')\n    ({\"r\":15,\"style\":{\"stroke\": \"#ffffff\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})"
 							},
 							"parser": {
 								"type": "code",
@@ -218,6 +218,52 @@
 								"value": [
 									7,
 									6
+								]
+							},
+							"orientation": {
+								"type": "double",
+								"value": 0
+							},
+							"scale": {
+								"type": "list<double>",
+								"value": [
+									1,
+									1
+								]
+							}
+						},
+						"114": {
+							"textContent": {
+								"type": "string",
+								"value": "X"
+							},
+							"style": {
+								"type": "map<string,string>",
+								"value": {
+									"stroke": "#000000",
+									"stroke-dasharray": "",
+									"fill": "#000000",
+									"fill-opacity": 0.75,
+									"font-size": "30px",
+									"stroke-width": 1,
+									"arrow-start": "none",
+									"arrow-end": "none"
+								}
+							},
+							"mapper": {
+								"type": "code",
+								"value": "if(getAttr('result')=='fail')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"font-size\": \"30px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('result')=='success')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"font-size\": \"0px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})"
+							},
+							"parser": {
+								"type": "code",
+								"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+							},
+							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+							"position": {
+								"type": "list<double>",
+								"value": [
+									11,
+									5
 								]
 							},
 							"orientation": {
@@ -497,7 +543,7 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": "if(getAttr('isExhaustive')!=0)\n     ({'width':40,'height':40})\nelse\n     ({'width':0,'height':0})"
+								"value": "if(getAttr('isExhaustive')!='F')\n     ({'width':40,'height':40})\nelse\n     ({'width':0,'height':0})"
 							},
 							"parser": {
 								"type": "code",
@@ -1056,12 +1102,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "({position:getAttr(\"position\")})"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "({position:getAttr(\"position\")})"
 			},
 			{
 				"name": "$contents",
@@ -1284,12 +1330,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "({position:getAttr(\"position\")})"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "({position:getAttr(\"position\")})"
 			},
 			{
 				"name": "$contents",
@@ -1565,12 +1611,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "({position:getAttr(\"position\")})"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "({position:getAttr(\"position\")})"
 			},
 			{
 				"name": "$contents",
@@ -1605,7 +1651,7 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": "if(getAttr('varType')=='Delete')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.95,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('varType')=='Read')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('varType')=='Create')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"gray\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})"
+								"value": "if(getAttr('varType')=='Delete')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.95,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('varType')=='Read')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('varType')=='Create')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"gray\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('varType')=='Forbidden')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})"
 							},
 							"parser": {
 								"type": "code",
@@ -1839,7 +1885,7 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": "if(getAttr('negativeConstraintNumber')!=-1 && getAttr('varType')!='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"15px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')!=-1 && getAttr('varType')=='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"15px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')==-1 && getAttr('varType')!='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"0px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')==-1 && getAttr('varType')=='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"0px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})"
+								"value": "if(getAttr('varType')=='Forbidden')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"15px\",\"font-style\": \"normal\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"X\"})\nelse if(getAttr('negativeConstraintNumber')!=-1 && getAttr('varType')!='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"15px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')!=-1 && getAttr('varType')=='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"15px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')==-1 && getAttr('varType')!='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"0px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')==-1 && getAttr('varType')=='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"0px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})"
 							},
 							"parser": {
 								"type": "code",
@@ -2565,7 +2611,7 @@
 						"110": {
 							"segments": {
 								"type": "string",
-								"value": "m0,0l100,0"
+								"value": "m0,0l87,0"
 							},
 							"style": {
 								"type": "map<string,string>",
@@ -2594,52 +2640,6 @@
 								"value": [
 									8,
 									30
-								]
-							},
-							"orientation": {
-								"type": "double",
-								"value": 0
-							},
-							"scale": {
-								"type": "list<double>",
-								"value": [
-									1,
-									1
-								]
-							}
-						},
-						"112": {
-							"textContent": {
-								"type": "string",
-								"value": "location"
-							},
-							"style": {
-								"type": "map<string,string>",
-								"value": {
-									"stroke": "#000000",
-									"stroke-dasharray": "",
-									"fill": "#000000",
-									"fill-opacity": 0.75,
-									"font-size": "17px",
-									"stroke-width": 0,
-									"arrow-start": "none",
-									"arrow-end": "none"
-								}
-							},
-							"mapper": {
-								"type": "code",
-								"value": "({'textContent': 'Loc: '+getAttr('location')})"
-							},
-							"parser": {
-								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-							},
-							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
-							"position": {
-								"type": "list<double>",
-								"value": [
-									9,
-									37
 								]
 							},
 							"orientation": {

@@ -27902,7 +27902,7 @@
 							"44": {
 								"segments": {
 									"type": "string",
-									"value": "m0,0l100,0"
+									"value": "m0,0l87,0"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -28023,7 +28023,7 @@
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/IconContentsLink"
 			},
-			"112": {
+			"114": {
 				"typename": {
 					"type": "string",
 					"value": "TextIcon"
@@ -28031,8 +28031,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2033,
-						355
+						1549,
+						253
 					]
 				},
 				"orientation": {
@@ -28061,7 +28061,7 @@
 							"21": {
 								"textContent": {
 									"type": "string",
-									"value": "location"
+									"value": "X"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -28070,8 +28070,8 @@
 										"stroke-dasharray": "",
 										"fill": "#000000",
 										"fill-opacity": 0.75,
-										"font-size": "17px",
-										"stroke-width": 0,
+										"font-size": "30px",
+										"stroke-width": 1,
 										"arrow-start": "none",
 										"arrow-end": "none"
 									}
@@ -28110,11 +28110,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text/112.instance"
+					"value": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text/114.instance"
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/TextIcon"
 			},
-			"113": {
+			"116": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -28139,8 +28139,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2050.1796875,
-						342
+						1575.50390625,
+						275.25
 					]
 				},
 				"orientation": {
@@ -28171,13 +28171,13 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/IconContents/113.instance"
+					"value": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/IconContents/116.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/IconIcon/107.instance--/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/IconContentsLink/113.instance": "M2024,318L2050.1796875,342",
-						"/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/IconContentsLink/113.instance--/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/TextIcon/112.instance": "M2050.2348408621183,342.0505613633029L2076.3590636914623,365.9997146106155"
+						"/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/IconIcon/3.instance--/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/IconContentsLink/116.instance": "M1538,248L1575.50390625,275.25",
+						"/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/IconContentsLink/116.instance--/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/TextIcon/114.instance": "M1575.5649209695844,275.29433274490384L1559.007546833203,269.49980696890157"
 					}
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons/IconContentsLink"
@@ -28216,11 +28216,11 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+					"value": "({position:getAttr(\"position\")})"
 				},
 				"parser": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+					"value": "({position:getAttr(\"position\")})"
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Icon"
 			},
@@ -28280,11 +28280,11 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+					"value": "({position:getAttr(\"position\")})"
 				},
 				"parser": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+					"value": "({position:getAttr(\"position\")})"
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Icon"
 			},
@@ -28336,7 +28336,7 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+					"value": "if(getAttr('result')=='success')\n    ({\"r\":15,\"style\":{\"stroke\": \"#ffffff\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('result')=='fail')\n    ({\"r\":15,\"style\":{\"stroke\": \"#ffffff\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})"
 				},
 				"parser": {
 					"type": "code",
@@ -28637,11 +28637,11 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+					"value": "({position:getAttr(\"position\")})"
 				},
 				"parser": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+					"value": "({position:getAttr(\"position\")})"
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Icon"
 			},
@@ -28801,7 +28801,7 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "if(getAttr('isExhaustive')!=0)\n     ({'width':40,'height':40})\nelse\n     ({'width':0,'height':0})"
+					"value": "if(getAttr('isExhaustive')!='F')\n     ({'width':40,'height':40})\nelse\n     ({'width':0,'height':0})"
 				},
 				"parser": {
 					"type": "code",
@@ -28887,11 +28887,11 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+					"value": "({position:getAttr(\"position\")})"
 				},
 				"parser": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+					"value": "({position:getAttr(\"position\")})"
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Icon"
 			},
@@ -29074,11 +29074,11 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+					"value": "({position:getAttr(\"position\")})"
 				},
 				"parser": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+					"value": "({position:getAttr(\"position\")})"
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Icon"
 			},
@@ -29110,7 +29110,7 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "if(getAttr('varType')=='Delete')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.95,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('varType')=='Read')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('varType')=='Create')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"gray\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})"
+					"value": "if(getAttr('varType')=='Delete')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.95,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('varType')=='Read')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('varType')=='Create')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"gray\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('varType')=='Forbidden')\n     ({'style':{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"font-size\": \"20px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})"
 				},
 				"parser": {
 					"type": "code",
@@ -29269,7 +29269,7 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "if(getAttr('negativeConstraintNumber')!=-1 && getAttr('varType')!='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"15px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')!=-1 && getAttr('varType')=='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"15px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')==-1 && getAttr('varType')!='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"0px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')==-1 && getAttr('varType')=='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"0px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})"
+					"value": "if(getAttr('varType')=='Forbidden')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"15px\",\"font-style\": \"normal\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"X\"})\nelse if(getAttr('negativeConstraintNumber')!=-1 && getAttr('varType')!='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"15px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')!=-1 && getAttr('varType')=='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"15px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')==-1 && getAttr('varType')!='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"0px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})\nelse if(getAttr('negativeConstraintNumber')==-1 && getAttr('varType')=='Delete')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#ffffff\",\"fill-opacity\": 0.75,\"text-anchor\": \"start\",\"font-size\": \"0px\",\"font-style\": \"italic\",\"stroke-width\": 0,\"arrow-start\": \"none\",\"arrow-end\": \"none\"},\"textContent\":\"n\"+getAttr('negativeConstraintNumber')})"
 				},
 				"parser": {
 					"type": "code",
@@ -29641,7 +29641,7 @@
 			"110": {
 				"segments": {
 					"type": "string",
-					"value": "m0,0l100,0"
+					"value": "m0,0l87,0"
 				},
 				"style": {
 					"type": "map<string,string>",
@@ -29669,10 +29669,10 @@
 			"111": {
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/IconContents"
 			},
-			"112": {
+			"114": {
 				"textContent": {
 					"type": "string",
-					"value": "location"
+					"value": "X"
 				},
 				"style": {
 					"type": "map<string,string>",
@@ -29681,15 +29681,15 @@
 						"stroke-dasharray": "",
 						"fill": "#000000",
 						"fill-opacity": 0.75,
-						"font-size": "17px",
-						"stroke-width": 0,
+						"font-size": "30px",
+						"stroke-width": 1,
 						"arrow-start": "none",
 						"arrow-end": "none"
 					}
 				},
 				"mapper": {
 					"type": "code",
-					"value": "({'textContent': 'Loc: '+getAttr('location')})"
+					"value": "if(getAttr('result')=='fail')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"font-size\": \"30px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})\nelse if(getAttr('result')=='success')\n    ({\"style\":{\"stroke\": \"#000000\",\"stroke-dasharray\": \"\",\"fill\": \"#000000\",\"fill-opacity\": 0.75,\"font-size\": \"0px\",\"stroke-width\": 1,\"arrow-start\": \"none\",\"arrow-end\": \"none\"}})"
 				},
 				"parser": {
 					"type": "code",
@@ -29697,7 +29697,7 @@
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 			},
-			"113": {
+			"116": {
 				"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/IconContents"
 			}
 		},
@@ -29895,12 +29895,12 @@
 				"dest": "110"
 			},
 			{
-				"src": "107",
-				"dest": "113"
+				"src": "3",
+				"dest": "116"
 			},
 			{
-				"src": "113",
-				"dest": "112"
+				"src": "116",
+				"dest": "114"
 			}
 		],
 		"metamodels": [

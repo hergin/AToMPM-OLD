@@ -133,6 +133,11 @@
 				"default": false
 			},
 			{
+				"name": "result",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
 				"name": "name",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
@@ -168,6 +173,11 @@
 				"name": "__pMatchSubtypes",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pDecision": [
@@ -190,6 +200,11 @@
 				"name": "__pMatchSubtypes",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pRandom": [
@@ -212,6 +227,11 @@
 				"name": "__pMatchSubtypes",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__psuccess": [
@@ -472,6 +492,11 @@
 				"name": "negativeConstraintNumber",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__poperatesOn": [
@@ -536,6 +561,11 @@
 				"name": "negativeConstraintNumber",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pEntity": [
@@ -578,6 +608,11 @@
 				"name": "negativeConstraintNumber",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pTag": [
@@ -608,6 +643,11 @@
 			},
 			{
 				"name": "negation",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
@@ -664,6 +704,11 @@
 				"name": "negation",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pActionTag": [
@@ -694,6 +739,11 @@
 			},
 			{
 				"name": "negation",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "position",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
@@ -832,6 +882,16 @@
 			},
 			{
 				"name": "location",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "metamodels",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "mappings",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
@@ -1852,12 +1912,16 @@
 			"__pTransformationUnit",
 			"__pPositionable"
 		],
-		"__pTransformationUnitRelation": [],
+		"__pTransformationUnitRelation": [
+			"__pPositionable"
+		],
 		"__pDecision": [
-			"__pTransformationUnitRelation"
+			"__pTransformationUnitRelation",
+			"__pPositionable"
 		],
 		"__pRandom": [
-			"__pTransformationUnitRelation"
+			"__pTransformationUnitRelation",
+			"__pPositionable"
 		],
 		"__psuccess": [],
 		"__pfail": [],
@@ -1871,22 +1935,30 @@
 		"__pModelTransformationDesignPattern": [],
 		"__pturs": [],
 		"__ptus": [],
-		"__pVariableType": [],
+		"__pVariableType": [
+			"__pPositionable"
+		],
 		"__poperatesOn": [],
 		"__pElement": [
-			"__pVariableType"
+			"__pVariableType",
+			"__pPositionable"
 		],
 		"__pEntity": [
 			"__pElement",
-			"__pVariableType"
+			"__pVariableType",
+			"__pPositionable"
 		],
-		"__pTag": [],
+		"__pTag": [
+			"__pPositionable"
+		],
 		"__ptags": [],
 		"__pConditionTag": [
-			"__pTag"
+			"__pTag",
+			"__pPositionable"
 		],
 		"__pActionTag": [
-			"__pTag"
+			"__pTag",
+			"__pPositionable"
 		],
 		"__prelation": [],
 		"__ptrace": [],
