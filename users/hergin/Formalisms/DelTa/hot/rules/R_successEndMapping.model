@@ -476,8 +476,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1000,
-						437
+						1032,
+						430
 					]
 				},
 				"orientation": {
@@ -701,8 +701,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1019,
-						563
+						1051,
+						556
 					]
 				},
 				"orientation": {
@@ -912,7 +912,7 @@
 				},
 				"$type": "/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons.pattern/__pEndSuccessIcon"
 			},
-			"43": {
+			"54": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -937,8 +937,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1026.9881188274105,
-						519.3500001960592
+						1061.5100961414,
+						516.1499998150887
 					]
 				},
 				"orientation": {
@@ -1012,18 +1012,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericGraph/GenericGraph.pattern/__pGenericLink/43.instance"
+					"value": "/Formalisms/GenericGraph/GenericGraph.pattern/__pGenericLink/54.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons.pattern/__pEndSuccessIcon/42.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/43.instance": "M1031,570L1026.9881188274107,519.3500001960592",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/43.instance--/Formalisms/DelTa/DelTa.defaultIcons.pattern/__pEndIcon/41.instance": "M1026.994071171423,519.4251485392135L1023.0000235115758,469.0002968336438"
+						"/Formalisms/DelTa/DelTa.defaultIcons.pattern/__pEndIcon/41.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/54.instance": "M1058,464L1061.5100961414,516.1499998150887",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/54.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons.pattern/__pEndSuccessIcon/42.instance": "M1061.5050383675361,516.07485574625L1064.9999805967655,567.9997117233727"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink"
 			},
-			"44": {
+			"55": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -1042,8 +1042,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						888.8729623663339,
-						364.58605014546504
+						904.75,
+						361
 					]
 				},
 				"orientation": {
@@ -1074,18 +1074,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/44.instance"
+					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/55.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/44.instance": "M758,273L888.8729623663339,364.58605014546504",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/44.instance--/Formalisms/DelTa/DelTa.defaultIcons.pattern/__pEndIcon/41.instance": "M888.811249912023,364.54286322715177L1019.4993066033792,455.99951475494595"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/55.instance": "M758,273L904.75,361",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/55.instance--/Formalisms/DelTa/DelTa.defaultIcons.pattern/__pEndIcon/41.instance": "M904.8141381945529,361.0384610638546L1051.4993228800495,448.9995939587349"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
 			},
-			"45": {
+			"56": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -1104,8 +1104,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						894,
-						423.5
+						910,
+						420
 					]
 				},
 				"orientation": {
@@ -1136,13 +1136,13 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/45.instance"
+					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/56.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/45.instance": "M758,273L894,423.5",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/45.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons.pattern/__pEndSuccessIcon/42.instance": "M894.050221123814,423.5555755818677L1029.9995524844792,573.9995047714272"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/56.instance": "M758,273L910,420",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/56.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons.pattern/__pEndSuccessIcon/42.instance": "M910.0538747996532,420.0521026022962L1061.9995393123495,566.9995544665486"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
@@ -1267,7 +1267,7 @@
 				},
 				"$type": "/Formalisms/__Transformations__/Transformation/MoTif.pattern/__pEndSuccess"
 			},
-			"43": {
+			"54": {
 				"__pLabel": {
 					"type": "string",
 					"value": "1"
@@ -1285,10 +1285,10 @@
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.pattern/__pGenericLink"
 			},
-			"44": {
+			"55": {
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
 			},
-			"45": {
+			"56": {
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
 			}
 		},
@@ -1302,27 +1302,27 @@
 				"dest": "39"
 			},
 			{
-				"src": "42",
-				"dest": "43"
+				"src": "41",
+				"dest": "54"
 			},
 			{
-				"src": "43",
+				"src": "54",
+				"dest": "42"
+			},
+			{
+				"src": "1",
+				"dest": "55"
+			},
+			{
+				"src": "55",
 				"dest": "41"
 			},
 			{
 				"src": "1",
-				"dest": "44"
+				"dest": "56"
 			},
 			{
-				"src": "44",
-				"dest": "41"
-			},
-			{
-				"src": "1",
-				"dest": "45"
-			},
-			{
-				"src": "45",
+				"src": "56",
 				"dest": "42"
 			}
 		],
