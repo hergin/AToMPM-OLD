@@ -201,7 +201,7 @@
 				},
 				"code": {
 					"type": "code",
-					"value": "HttpUtils.httpReq('POST',\n\t\t\tHttpUtils.url('/saveSched'));"
+					"value": "_httpReq(\n                        'PUT',\n                        '/__mt/current.transform?wid='+_context.wid,\n                        {'transfs':['/Formalisms/DelTa/hot/T_HOT.model'],\n                         'username':_context.username});\n_httpReq(\n\t'PUT',\n\t'/__mt/execmode?wid='+_context.wid,\n\t{'mode':'play'});\n\nsetTimeout(function(){HttpUtils.httpReq('POST',\n\t\t\tHttpUtils.url('/saveSched'));},5000);"
 				},
 				"$type": "/Formalisms/__Utilities__/Buttons/Buttons/Button"
 			}
